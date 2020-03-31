@@ -1,0 +1,59 @@
+nav ul li:hover {
+	text-decoration: underline;
+	
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+}
+a.blue{
+	color:blue;
+}
+header{
+	font-size: 0,8em;
+	display: flex;
+	justify-content: flex-end;
+
+
+}
+li.header{
+	padding: 5px;
+
+}
+article{
+	display: flex;
+	height: 600px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	text-align: center;
+}
+
+input{
+	height: 2em;
+	width: 35em;
+	border-radius: 0.5em;
+}
+
+li.box{
+	border: 1px green none;
+	background-color: lightgreen;
+	opacity: 0.9;
+
+
+}
+nav.footer{
+	display: inline-block;
+}
+nav.footer ul.droite{
+	justify-content: flex-start;
+}
+nav.footer ul.gauche{
+	justify-content: flex-end;
+}
+
